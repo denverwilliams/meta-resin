@@ -1,6 +1,10 @@
 Change log
 -----------
 
+* Fix /var/lib/docker corruption after power cut [petrosagg]
+* Fix container name conflict when creating a docker container [petrosagg]
+* docker: enable using local resolver in containers [petrosagg]
+* docker: backport fix for atomic key.json writing [petrosagg]
 * Update supervisor to v2.8.1 [Pablo]
 
 # v1.19 - 2016-10-25
