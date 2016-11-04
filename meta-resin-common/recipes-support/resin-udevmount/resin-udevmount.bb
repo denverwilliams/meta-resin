@@ -19,4 +19,4 @@ FILES_${PN} += " \
      "
 
 PACKAGES = "${PN}"
-PROVIDES = "udev"
+PROVIDES = "udevlabel"
