@@ -1,6 +1,7 @@
 Change log
 -----------
 
+* Add initial directory structure for migrating to krogoth [Florin]
 * Update supervisor to v2.8.2 [Pablo]
 
 # v2.0-beta.3 - 2016-11-04
