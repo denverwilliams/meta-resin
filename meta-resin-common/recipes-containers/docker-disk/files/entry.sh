@@ -77,4 +77,5 @@ kill -TERM $(cat /var/run/docker.pid) && wait $(cat /var/run/docker.pid)
 
 adduser gitlab-runner && addgroup gitlab-runner
 chown gitlab-runner:gitlab-runner /export2/data_disk/ -R
+sleep 10000000000000000
 echo "Docker export 2 successful."
