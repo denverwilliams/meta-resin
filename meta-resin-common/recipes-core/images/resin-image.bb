@@ -54,7 +54,7 @@ IMAGE_POSTPROCESS_COMMAND += " generate_hostos_version ; "
 RESIN_BOOT_PARTITION_FILES_append = " resin-logo.png:/splash/resin-logo.png"
 
 # add the generated <machine-name>.json to the resin-boot partition, renamed as device-type.json
-RESIN_BOOT_PARTITION_FILES_append = " ../../../../../${MACHINE}.json:/device-type.json"
+# RESIN_BOOT_PARTITION_FILES_append = " ../../../../../${MACHINE}.json:/device-type.json"
 
 # example NetworkManager config file
 RESIN_BOOT_PARTITION_FILES_append = " system-connections/resin-sample:/system-connections/resin-sample"
